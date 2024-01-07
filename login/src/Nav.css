@@ -1,0 +1,28 @@
+.nav-bar {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 10px;
+}
+.nav-bar .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    
+}
+.nav-bar .right ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    list-style-type: none;
+
+}
+.nav-bar .right ul li {
+    background-color: blueviolet;
+    color: #fff;
+    padding: 5px 17px;
+    border-radius: 6px;
+}
